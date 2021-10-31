@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  
+}
+
+.courseList {
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.section {
+    background-color: #F4F5F7;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+#bigTitle {
+    text-align: center;
+    border-bottom: 4px solid #A390CD;
+}
+
+h3{
+    color: #30008F;
+    font-style: italic;
+    border-left: 7px solid #957FC5;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 620px) {
+    .courseList, .section{
+        width: 100%;
+    }
+}

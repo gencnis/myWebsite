@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  
+}
+
+.menu {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #F4F5F7;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+}
+
+#menuBox {
+    padding: 14px;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 35%;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.right {
+    background-color: #F4F5F7;
+    float: left;
+    width: 40%;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#myPic {
+    width: 100%;
+    height: auto;
+    max-width: 70vw;
+    min-width: none;
+}
+
+
+@media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+        width: 100%;
+    }
+}

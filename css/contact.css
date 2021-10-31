@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  
+}
+
+.left {
+    float: left;
+    width: 45%;
+    padding: 0 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;;
+}
+
+.right {
+    float: left;
+    width: 55%;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+    font-style: bold;
+}
+
+#meme {
+    width: 100%;
+    height: auto;
+    max-width: 70vw;
+    min-width: none;
+}
+
+#contactTitle {
+    border-bottom: 4px solid #A390CD;
+}
+
+input{
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+input[type=text]{
+    color: black;
+    width: 25%;
+    height: 15px;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #30008F;
+    background-color: #F4F5F7;
+    border-radius: 4px;
+}
+
+input[type=message] {
+    color: black;
+    width: 80%;
+    height: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #30008F;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 32px;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 23%;
+    background-color: #30008F; 
+    color: #F4F5F7; 
+    border: 2px solid #BEB0DB;
+}
+  
+button:hover {
+    background-color: white;
+    color: #30008F;
+}
+  
+
+@media only screen and (max-width: 620px) {
+    .left, .right {
+        width: 100%;
+    }
+}
